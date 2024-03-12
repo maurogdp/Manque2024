@@ -1,0 +1,196 @@
+\documentclass[11pt, letterpaper]{book}
+
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\geometry{landscape}
+\usepackage[export]{adjustbox}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{subfig}
+\usepackage{venndiagram}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{mdframed}
+\usepackage{slashbox}
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,bbox}
+\usetikzlibrary{decorations.pathreplacing}
+\begin{comment}
+\tikzset{%
+  show curve controls/.style={
+    postaction={
+      decoration={
+        show path construction,
+        curveto code={
+          \draw [blue] 
+            (\tikzinputsegmentfirst) -- (\tikzinputsegmentsupporta)
+            (\tikzinputsegmentlast) -- (\tikzinputsegmentsupportb);
+          \fill [red, opacity=0.5] 
+            (\tikzinputsegmentsupporta) circle [radius=.5ex]
+            (\tikzinputsegmentsupportb) circle [radius=.5ex];
+        }
+      },
+      decorate
+}}}
+\end{comment}
+\usepackage{stackengine}
+\newcommand\xrowht[2][0]{\addstackgap[.5\dimexpr#2\relax]{\vphantom{#1}}}
+
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{babel,arrows.meta,decorations.pathmorphing, backgrounds,positioning,fit,petri, shapes, shadows}
+
+\usepackage{tikz,color}
+\usepackage{pgf-pie}
+\usepackage{pgfplots} 
+
+\theoremstyle{plain}% default
+\newtheorem{teo}{Teorema}[section]
+\newtheorem{lem}[teo]{Lema}
+\newtheorem{prop}[teo]{Proposición}
+\newtheorem*{cor}{Corolario}
+\newmdtheoremenv{defi}{Definición}[section]
+\newtheorem{conj}{Conjetura}[section]
+\newtheorem{propi}{Propiedad}[section]
+
+\theoremstyle{definition}
+\newtheorem{ejer}{\textit{Ejercicio}}[section]
+\newtheorem{ejem}{\textit{Ejemplo}}[section]
+\newtheorem*{sol}{Solución}
+
+\theoremstyle{remark}
+\newtheorem{obs}{Observación}[section]
+\newtheorem*{nota}{Nota}
+\newtheorem{caso}{Caso}
+\newtheorem*{tips}{Tips}
+
+
+
+
+\newcommand{\paso}[1]{\hspace{1cm}\linebreak\hspace{1cm}\textit{#1 paso. }}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\newenvironment{myminipage}[1]%
+    {\let\@parboxrestore\relax\begin{minipage}{#1}}%
+    {\end{minipage}}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcounter{conserva}
+
+\newcounter{question}
+\newif\ifinchoices
+\inchoicesfalse
+\newenvironment{questions}{%
+  \list{\thequestion.\hspace{0.6cm}}%
+  {%
+    \usecounter{question}%
+    \def\question{\inchoicesfalse\item}%
+    \settowidth{\leftmargin}{10.\hskip\labelsep}%
+    \labelwidth\leftmargin\advance\labelwidth-\labelsep
+  }%
+}
+{%
+  \endlist
+}%
+
+\newcounter{choice}
+\renewcommand\thechoice{\Alph{choice}}
+\newcommand\choicelabel{\thechoice)}
+\def\choice{%
+  \ifinchoices
+    % Do nothing
+  \else
+    \startchoices
+  \fi
+  \refstepcounter{choice}%
+  %\ifnum\value{choice}>0\relax
+  %\penalty -50\hskip 1em plus 1em\relax
+  %\fi
+  \ifnum\value{choice}>1{\vspace{-0.2cm}}
+  
+  \fi
+  \choicelabel
+  \nobreak
+  \enskip
+}% choice
+\def\CorrectChoice{%
+  \choice
+  \addanswer{\thequestion}{\thechoice}%
+}
+\let\correctchoice\CorrectChoice
+
+\newcommand{\startchoices}{%
+  \inchoicestrue
+  \setcounter{choice}{0}%
+  \par % Uncomment this to have choices always start a new line
+  % If we're continuing the paragraph containing the question,
+  % then leave a bit of space before the first choice:
+  \ifvmode\else\enskip\fi
+}%
+
+\newbox\allanswers
+\setbox\allanswers=\hbox{}
+\newcommand{\addanswer}[2]{%
+  \global\setbox\allanswers=\hbox{\unhbox\allanswers #1.~#2\quad}%
+}
+\newcommand{\showanswers}{%
+  \vfill
+  \begin{center}
+    Alternativas correctas
+  \end{center}
+  \noindent\unhbox\allanswers
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+\author{Mauro Díaz}
+\title{Apuntes\\Probabilidad y estadística descriptiva e inferencial}
+
+\begin{document}
+
+\begin{tabular}{|p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|}\hline
+    \textbf{0 puntos}&\textbf{1 punto}&\textbf{2 puntos}&\textbf{3 puntos}\\ \hline
+    No responde.&Cumple con la prioridad de las operaciones y los símbolos de agrupación, y ejecuta el precedimiento para sumar, restar y multiplicar fracciones, sin embargo la división la realiza de manera erronea.&Ejecuta de manera correcta el algoritmo de la suma, resta, multiplicación y división, además de respetar la prioridad de las operaciones, sin embargo acumula más de 2 a 5 errores en la operatoria de números enteros.&Ejecuta de manera correcta el algoritmo de la suma, resta, multiplicación y división, además de respetar la prioridad de las operaciones, sin embargo acumula, como máximo, 1 error en la operatoria de números enteros.\\ \hline 
+
+    Solo transcribe el ejercicio, sin cambios. &Ejecuta de manera correcta el algoritmo de la suma, resta, multiplicación y división de racionales, sin embargo no cumple con la prioridad de las operaciones y los símbolos de agrupación.&&\\ \hline
+
+    Comete el error al sumar o resta fracciones sumando o restando numeradores y denemoniadores, es decir, $$\frac{a}{b}+\frac{c}{d}=\frac{a+c}{b+d}$$.&Ejecuta de manera correcta el algoritmo de la suma, resta, multiplicación y división, además de respetar la prioridad de las operaciones, sin embargo acumula más de 5 errores en la operatoria de números enteros.&&\\ \hline
+
+    Comete error al multiplicar fracciones al igualar denominadores y luego multiplicar los numeradores y mantener intacto de denominador, es decir, $$\frac{a}{c}\cdot \frac{b}{c}=\frac{a\cdot b}{c}$$&En la suma y resta de racionales, si bien busca igualar denominadores, durante la amplificación o simplificación solo opera con el denominador y omite el numerado, o bien opera por numeros diferentes.&&\\ \hline
+
+
+    
+\end{tabular}
+
+
+\end{document}

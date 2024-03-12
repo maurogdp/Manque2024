@@ -1,0 +1,153 @@
+\documentclass[spanish,letterpaper, 12pt, addpoints, answers]{exam}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2.5cm]{geometry}
+\PassOptionsToPackage{T1}{fontenc} 
+    \usepackage{fontenc} 
+    \usepackage[utf8]{inputenc}
+    % Cargar babel y configurar para español
+    \usepackage[spanish, es-tabla, es-noshorthands]{babel}
+    \usepackage{lmodern}
+    \usepackage{amsfonts}
+    \usepackage{multirow}
+    \usepackage{hhline}
+    \usepackage[none]{hyphenat}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{cancel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{tikz}
+\pointpoints{Punto}{Puntos}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{babel,arrows.meta,decorations.pathmorphing, backgrounds,positioning,fit,petri, shapes, shadows}
+
+\usepackage{tikz,color}
+\usepackage{pgf-pie} 
+
+\usepackage{stackengine}
+\newcommand\xrowht[2][0]{\addstackgap[.5\dimexpr#2\relax]{\vphantom{#1}}}
+
+\CorrectChoiceEmphasis{\color{red}}
+\noprintanswers
+
+\renewcommand{\choiceshook}{%
+    \setlength{\leftmargin}{30pt}%
+}
+
+
+\everymath={\displaystyle}
+\renewcommand{\choicelabel}{\thechoice)}
+\renewcommand{\choicelabel}{ 
+  \ifnum\value{choice}>0
+    \makebox[1.5cm][r]{\raggedleft \thechoice)}
+  \else
+   \raggedleft \thechoice)
+  \fi
+}
+
+\setlength{\multicolsep}{0.6em}
+
+\setlength{\columnseprule}{2pt}
+
+\setlength{\columnsep}{2cm}
+%%%%%% ---Comment out to add a header image ----
+
+\begin{document}
+%\begin{figure}[t]
+%\includegraphics[width=1\textwidth,height=1.2\textheight,keepaspectratio]{header-cufm.png}
+%\end{figure}
+
+\begin{center}
+\textbf{Evaluación N$^o03$ Matemáticas} \\
+Séptimo básico \\
+2do semestre 2023
+\end{center}
+\extraheadheight{-0.5in}
+
+\textbf{Nombre:}\rule{9cm}{0.5pt}\hspace{1cm}\textbf{Curso:}\rule{2cm}{0.5pt}
+
+\runningheadrule \extraheadheight{0.15in}
+
+\vspace{0.15in}
+\runningheadrule \extraheadheight{0.14in}
+
+\lhead{\ifcontinuation{Pregunta \ContinuedQuestion\ continua\ldots}{}}
+\runningheader{Matemáticas}{Evaluación N$^o03$}{2do semestre 2023}
+\runningfooter{}
+              {\thepage\ de \numpages}
+              {}
+\vspace{0.15in}
+
+\nopointsinmargin
+\setlength\linefillthickness{0.1pt}
+\setlength\answerlinelength{0.1in}
+\vspace{0.1in}
+%\parbox{6in}{
+%\textbf{Objetivo:} Verificar el aprendizaje y comprensión de algunos de los temas fundamentales del nivel. }
+\vspace{0.1in}
+
+ \begin{center}
+\fbox{\fbox{\parbox{14cm}{
+{\textbf{Instrucciones:}
+\begin{itemize}
+    \item Tienes 85 minutos para contestar esta evaluación.
+    
+    \item Lee cada pregunta cuidadosamente. Pon atención a los detalles. 
+    
+    \item Si terminas antes del tiempo, entonces aprovecha de revisar tus respuestas.
+    %\item Solo en la \textbf{Parte III} de esta evaluación el desarrollo es obligatorio para obtener la totalidad del puntaje. 
+
+\end{itemize} }}}}
+\vspace{0.2in}
+\end{center}
+
+\parbox{16cm}{
+{\textsc{\textbf{Ejercicios de desarrollo.}}}}
+
+\vspace{0.15in}
+\hrule 
+%\vspace{0.35in}
+\begin{questions}
+%\begin{multicols}{2}
+
+
+\question[3]  $\dfrac{5}{4}+ \dfrac{7}{6}- \dfrac{15}{8} =$\\
+\vspace{3cm}
+
+\question[3]  $\dfrac{-2}{3}+ \dfrac{2}{6} + \dfrac{5}{-6}=$\\
+\vspace{4cm}
+
+\question[3]  $\dfrac{-1}{5}\cdot \dfrac{-4}{3}-\dfrac{-1}{5}=$\\
+\vspace{4cm}
+
+\question[3]  $\dfrac{5}{8}\div (-2)\cdot \dfrac{7}{2}\div \dfrac{-14}{8}=$\\
+\vspace{7cm}
+
+\question[3]  $\dfrac{-5}{6}+\left(\dfrac{-1}{5}+2\right)-\dfrac{-3}{-4}=$\\
+\vspace{7cm}
+
+\question[3]  $\dfrac{-3}{10}\div\left(\dfrac{-2}{5}\cdot\dfrac{3}{-8}\div\dfrac{5}{-2}\right)\div (-3)=$\\
+\vspace{7cm}
+
+\question[3]  $\dfrac{-2}{7}\cdot \left(-\dfrac{1}{5}+\dfrac{2}{4}\right)\div\dfrac{3}{14}=$\\
+\vspace{10cm}
+
+\question[3]  $-1{,}\bar{6}+1-\left(2\div(-3)\cdot 6\right)\div\dfrac{3}{2}=$\\
+\vspace{10cm}
+
+\question[3]  $\dfrac{\dfrac{-7}{-4}+\dfrac{5}{-3}}{\dfrac{4}{5}}+1{,}5=$\\
+\vspace{10cm}
+
+\question[3]  $1-\dfrac{1}{1-\dfrac{1}{1-\dfrac{1}{1+1}}}=$\\
+\vspace{10cm}
+
+\end{questions}
+\end{document}

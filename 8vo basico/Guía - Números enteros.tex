@@ -1,0 +1,293 @@
+\documentclass[spanish,letterpaper, 11pt, addpoints, answers]{exam}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2.5cm]{geometry}
+\PassOptionsToPackage{T1}{fontenc} 
+    \usepackage{fontenc} 
+    \usepackage[utf8]{inputenc}
+    % Cargar babel y configurar para español
+    \usepackage[spanish, es-tabla, es-noshorthands]{babel}
+    \usepackage{lmodern}
+    \usepackage{amsfonts}
+    \usepackage{multirow}
+    \usepackage{hhline}
+    \usepackage[none]{hyphenat}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{cancel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{tikz}
+\pointpoints{Punto}{Puntos}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{babel,arrows.meta,decorations.pathmorphing, backgrounds,positioning,fit,petri, shapes, shadows}
+
+\usepackage{tikz,color}
+\usepackage{pgf-pie} 
+
+\usepackage{stackengine}
+\newcommand\xrowht[2][0]{\addstackgap[.5\dimexpr#2\relax]{\vphantom{#1}}}
+
+
+
+\CorrectChoiceEmphasis{\color{red}}
+\noprintanswers
+
+\renewcommand{\choiceshook}{%
+    \setlength{\leftmargin}{30pt}%
+}
+
+
+\everymath={\displaystyle}
+\renewcommand{\choicelabel}{\thechoice)}
+\renewcommand{\choicelabel}{ 
+  \ifnum\value{choice}>0
+    \makebox[1.5cm][r]{\raggedleft \thechoice)}
+  \else
+   \raggedleft \thechoice)
+  \fi
+}
+
+\setlength{\multicolsep}{0.6em}
+
+\setlength{\columnseprule}{2pt}
+
+\setlength{\columnsep}{2cm}
+%%%%%% ---Comment out to add a header image ----
+
+\begin{document}
+%\begin{figure}[t]
+%\includegraphics[width=1\textwidth,height=1.2\textheight,keepaspectratio]{header-cufm.png}
+%\end{figure}
+
+\begin{center}
+\textbf{Números enteros} \\
+Guía teórica\\
+1er semestre 2024
+\end{center}
+\extraheadheight{-0.5in}
+
+\runningheadrule \extraheadheight{0.15in}
+
+\vspace{0.15in}
+\runningheadrule \extraheadheight{0.14in}
+
+\lhead{\ifcontinuation{Pregunta \ContinuedQuestion\ continua\ldots}{}}
+\runningheader{Números enteros}{Guía teórica}{1er semestre 2024}
+\runningfooter{}
+              {\thepage\ de \numpages}
+              {}
+\vspace{0.05in}
+
+\nopointsinmargin
+\setlength\linefillthickness{0.1pt}
+\setlength\answerlinelength{0.1in}
+\vspace{0.1in}
+\parbox{6in}{
+\textbf{Objetivo:} Conocer el conjunto de los números enteros.}
+\vspace{0.15in}
+\hrule 
+
+\begin{itemize}
+  \item El conjunto de los \textbf{números enteros} ($\mathbb{Z}$) es la unión entre los conjuntos formados por los números naturales, sus inversos aditivos y el cero.
+  $$
+  \mathbb{Z}=\mathbb{Z^{-}}\cup \{0\}\cup\mathbb{Z^{+}}
+  $$
+  \item Los \textbf{números enteros positivos} ($\mathbb{Z^+}$) son los números naturales y se pueden escribir con o sin el signo $+$.
+  \item Los \textbf{números enteros negativos} ($\mathbb{Z^-}$) son los inversos aditivos de los números naturales y se escriben con el signo $-$.
+  \item Cualquier número entero positivo es mayor que 0, mientras que cualquier numero entero negativo es menor que cero.
+  \item \textbf{Vaor absoluto:} distancia que existe en la recta numérica entre un número y el cero.
+\end{itemize}
+
+\parbox{6in}{
+\textbf{Actividades propuestas}}
+\vspace{0.15in}
+\hrule 
+
+\begin{questions}
+
+\question Completa con los signos $>,<$ o $=$.
+
+\begin{multicols}{2}
+
+\begin{itemize}
+  \item[\textbf{a.}] $-5$ \rule{1cm}{0.4pt} $6$
+  \item[\textbf{b.}] $0$ \rule{1cm}{0.4pt} $7$
+  \item[\textbf{c.}] $|5|$ \rule{1cm}{0.4pt} $-4$
+  \item[\textbf{d.}] $-11$ \rule{1cm}{0.4pt} $-12$
+  \item[\textbf{e.}] $|-12|$ \rule{1cm}{0.4pt} $-3$
+  \item[\textbf{f.}] $|18|$ \rule{1cm}{0.4pt} $|-18|$
+  \item[\textbf{g.}] $-15$ \rule{1cm}{0.4pt} $-15$
+  \item[\textbf{h.}] $-1$ \rule{1cm}{0.4pt} $-101$
+\end{itemize}
+\end{multicols}
+
+\question Evalúa si las afirmaciones son verdaderas (V) o falsas (F).
+
+  \begin{itemize}
+  \item[\textbf{a.}]\rule{1cm}{0.4pt} El inverso aditivo de $-2$ es $2$.
+  \item[\textbf{b.}]\rule{1cm}{0.4pt} El tercer subterraneo de un edificio se puede representar con el número $3$.
+  \item[\textbf{c.}]\rule{1cm}{0.4pt} El valor absoluto de un número es su inverso aditivo.
+  \item[\textbf{d.}]\rule{1cm}{0.4pt} La distancia entre dos números en la recta numérica siempre se representa con un número entero positivo.
+  \item[\textbf{e.}]\rule{1cm}{0.4pt} El termómetro marcó 6 grados Celsius bajo cero, es decir, $-6$ $ ^o$C.
+  \item[\textbf{f.}]\rule{1cm}{0.4pt} Al cero no lo antecede un signo porque es positivo.
+  \item[\textbf{g.}]\rule{1cm}{0.4pt} Todo número es mayor que su inverso aditivo.
+  \item[\textbf{h.}]\rule{1cm}{0.4pt} Todos los números negativos son menores que cualquier número positivo. 
+  \end{itemize}
+
+  \question Representa cada situación con un número entero.
+  
+  \begin{itemize}
+    \item[\textbf{a.}]Juan tiene una deuda de \$15.400.
+    \item[\textbf{b.}]El submarino llegó hasta 340 metros de profundidad.
+    \item[\textbf{c.}]El termómetro registró una temperatura de 18 grados Celsius.
+    \item[\textbf{d.}]El colegio está a 300 m de distancia de la casa de Pedro.
+    \item[\textbf{e.}]Todos los meses recivo \$25.000.
+    \item[\textbf{f.}]La montaña rusa tiene una altua de 85 m.
+    \item[\textbf{g.}]El automóvil retrocedio 15 metros.
+    \item[\textbf{h.}]Aristóteles nació el año 384 a. C. 
+    \end{itemize}
+
+  \question Ubica los números en la recta numérica
+
+  \begin{itemize}
+  \item[\textbf{a.}]$-1,2,-4,-6$ y $1$
+  \item[\textbf{b.}]$-7,0,-10,-5,-6,5$ y $8$
+  \item[\textbf{c.}]$25,-15,5,10,-20$ y $-10$
+  \item[\textbf{d.}]$-45,60,-10,-30,20$ y $-35$
+  \end{itemize}
+  
+  \question Ordena los siguientes hechos históricos, de acuerdo al año en que sucedieron.
+  
+  \begin{itemize}
+  \item[\textbf{a.}]\rule{1cm}{0.4pt} En 1492 Cristóbal Colón llegó a América.
+  \item[\textbf{b.}]\rule{1cm}{0.4pt} En el año 476 d. C. finalizó la etapa conocida como Edad Antigua.
+  \item[\textbf{c.}]\rule{1cm}{0.4pt} La segunda guerra mundial terminó el año 1945.
+  \item[\textbf{d.}]\rule{1cm}{0.4pt} La invnción de la escritura data del año 3.000 a. C.
+  \item[\textbf{e.}]\rule{1cm}{0.4pt} En el año 1789 se produjo la revolución francesa.
+  \item[\textbf{f.}]\rule{1cm}{0.4pt} Hace 3 millones de años a. C. aproximadamente, aparecir la primera especie o forma humana llamada Australopitecos.
+  \item[\textbf{g.}]\rule{1cm}{0.4pt} El año 1989 fue la caída del muro de Berlín.
+  \item[\textbf{h.}]\rule{1cm}{0.4pt} En el siglo VII a. C. Homero escribio ``La Odisea''.
+  \item[\textbf{i.}]\rule{1cm}{0.4pt} Hacia los años 530 a. C. los discípulos de Pitágoras, en Grecia, enseñaron qu el mundo no tenia forma de disco.
+  \item[\textbf{j.}]\rule{1cm}{0.4pt} El 14 de marzo del 2018 falleció el científico Stephen Hawking.
+  \end{itemize}
+\newpage
+  \vspace{0.1in}
+  \parbox{6in}{
+  \textbf{Objetivo:} Adición y sustracción de números enteros.}
+  \vspace{0.15in}
+  \hrule 
+  
+  \begin{itemize}
+    \item Para sumar números enteros de igual signo, se suman sus valores absolutos y se conserva el signo de los sumandos.
+    \begin{center}
+      $3+5=8$\hspace{2cm}$-3+(-5)=-8$
+    \end{center}
+    \item Para sumar números enteros con distinto signo, se calcula la diferencia de los valores absolutos de los números y se conserva el signo del sumando de mayor valor absoluto.
+    \begin{center}
+      $-5+2=-3$\hspace{2cm}$6+(-11)=-5$
+    \end{center}
+    \item Al restar dos números enteros se puede sumar al minuendo el inverso aditivo del sustraendo.
+    \begin{center}
+      $25-(-4)=25+4=29$\hspace{2cm}$-20-5=-20+(-5)=-25$
+    \end{center}
+    \item Las adiciones y sustracciones de números enteros también pueden ser resueltas en la recta numérica.
+    
+  \end{itemize}
+  
+  \parbox{6in}{
+  \textbf{Actividades propuestas}}
+  \vspace{0.15in}
+  \hrule 
+
+
+\question Resuelve las siguientes operaciones.
+
+\begin{multicols}{2}
+  
+
+
+\begin{itemize}
+  \item[a.] $-7+6$
+  \item[b.] $22+53$
+  \item[c.] $34+(-15)$
+  \item[d.] $-15+16$
+  \item[e.] $-3+(-56)$
+  \item[f.] $-17-(-12)$
+  \item[g.] $-5+(-4)+9$
+  \item[h.] $-24-(-31)+45$
+  \item[i.] $56+|-32|-(-19)$
+  \item[j.] $|-1|+1-(-1)$
+  \item[k.] $|46|+8-98-|12|$
+  \item[l.] $19+12+(-27)-|-29|$
+  \item[m.] $|-23|-|32|+(-78)$
+  \item[n.] $-67-(-55)+(-70)$
+  \item[ñ.] $-136-(-234)+|-81|-|-104|$
+  \item[o.] $-23-(-489)-(-37)-(-48)$
+  \item[p.] $-28+(-38)-(-93)-(-29)$
+  \item[q.] $-1+(-1)-(-1)+1+(-1)-(-1)$             
+\end{itemize}
+
+\end{multicols}
+
+\question Calcula mentalmente el valor de $x$ para que cumpla la iguadad.
+
+\begin{multicols}{2}
+
+\begin{itemize}
+  \item[a.] $x+5=18$
+  \item[b.] $x+(-4)=20$
+  \item[c.] $3+x=12$
+  \item[d.] $x+6=-2$
+  \item[e.] $12+x=4$
+  \item[f.] $2+x=-17$
+  \item[g.] $-23+x=-29$
+  \item[h.] $x-(-6)=14$
+  \item[i.] $x-(-10)=0$
+  \item[j.] $12-x=13$
+  \item[k.] $15-x=-15$
+  \item[l.] $x-(-32)=32$
+  \item[m.] $11=x-9$
+  \item[n.] $-15-x=-28$
+         
+\end{itemize}
+
+\end{multicols}
+
+\question Completa las tablas.
+
+\begin{itemize}
+  \item[a.]
+\begin{center}
+  \begin{tabular}{|c|c|p{1.5cm}|p{1.5cm}|p{1.5cm}|}\hline
+  $a$&$b$&$a+b$&$a-b$&$b-a$\\ \hline
+  $2$&$6$&&&\\ \hline
+  $-1$&$7$&&&\\ \hline
+  $4$&$-8$&&&\\ \hline
+  $-3$&$-9$&&&\\ \hline
+    
+  \end{tabular}
+\end{center}
+\vspace{0.5cm}
+\item[b.]
+\begin{center}
+  \begin{tabular}{|c|c|c|p{2cm}|p{2cm}|}\hline
+  $x$&$y$&$z$&$x+y-z$&$x-y-z$\\ \hline
+  $2$&$-3$&$-1$&&\\ \hline
+  $4$&$0$&$-11$&&\\ \hline
+  $-5$&$-2$&$-7$&&\\ \hline
+  
+    
+  \end{tabular}
+\end{center}
+\end{itemize}
+
+\end{questions}
+\end{document}
