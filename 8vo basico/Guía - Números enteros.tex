@@ -10,6 +10,8 @@
     \usepackage{multirow}
     \usepackage{hhline}
     \usepackage[none]{hyphenat}
+
+\usepackage{array}
 \usepackage[utf8]{inputenc}
 \usepackage{graphics}
 \usepackage{color}
@@ -91,7 +93,7 @@ Guía teórica\\
 \setlength\answerlinelength{0.1in}
 \vspace{0.1in}
 \parbox{6in}{
-\textbf{Objetivo:} Conocer el conjunto de los números enteros.}
+\textbf{Tema:} El conjunto de los números enteros.}
 \vspace{0.15in}
 \hrule 
 
@@ -181,7 +183,7 @@ Guía teórica\\
 \newpage
   \vspace{0.1in}
   \parbox{6in}{
-  \textbf{Objetivo:} Adición y sustracción de números enteros.}
+  \textbf{Tema:} Adición y sustracción de números enteros.}
   \vspace{0.15in}
   \hrule 
   
@@ -266,19 +268,18 @@ Guía teórica\\
 \begin{itemize}
   \item[a.]
 \begin{center}
-  \begin{tabular}{|c|c|p{1.5cm}|p{1.5cm}|p{1.5cm}|}\hline
-  $a$&$b$&$a+b$&$a-b$&$b-a$\\ \hline
-  $2$&$6$&&&\\ \hline
-  $-1$&$7$&&&\\ \hline
-  $4$&$-8$&&&\\ \hline
-  $-3$&$-9$&&&\\ \hline
-    
+  \begin{tabular}{|c|c|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.5cm}|}\hline
+    $a$ & $b$ & $a+b$ & $a-b$ & $b-a$ \\ \hline
+    $2$ & $6$ &&& \\ \hline
+    $-1$ & $7$ &&& \\ \hline
+    $4$ & $-8$ &&& \\ \hline
+    $-3$ & $-9$ &&& \\ \hline
   \end{tabular}
 \end{center}
 \vspace{0.5cm}
 \item[b.]
 \begin{center}
-  \begin{tabular}{|c|c|c|p{2cm}|p{2cm}|}\hline
+  \begin{tabular}{|c|c|c|>{\centering\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}p{3.5cm}|}\hline
   $x$&$y$&$z$&$x+y-z$&$x-y-z$\\ \hline
   $2$&$-3$&$-1$&&\\ \hline
   $4$&$0$&$-11$&&\\ \hline
@@ -287,6 +288,170 @@ Guía teórica\\
     
   \end{tabular}
 \end{center}
+\end{itemize}
+
+\question Resuelve los siguientes problemas.
+
+\begin{itemize}
+  \item[a.] La temperatura ambiental de un negocio de productos congelados es de 15 °C, mientras que en el interior del congelador está a 12 °C bajo cero. ¿Cuál es la diferencia entre la temperatura ambintal y la del congelador?
+  \item[b.] Después de subir 9 pisos, el ascensor de un edificio llegó al quinto piso. ¿Desde qué piso comenzó a subir el ascensor?
+  \item[c.] Un submariono se encontraba a 140 mtros de profundidad. Si ascendió 70 metros, ¿a qué profundidad llegó?
+  \item[d.] Pitágoras nació el año 580 a. C. y murió el año 501 a. C. ¿Cuántos años vivió Pitágoras?
+  \item[e.] En cierto momento, un avión vuela a 2.200 mtros de altura sobre el nivel del mar y un buzo se encuentra a 250 metros de prufundidad del mar. ¿Cuál es la diferencia entre las distancias del avión y el buzo, respecto al nivel del mar?    
+  \item[f.] Un día de invierno, a las 7:00 hrs el termómetro marcó -3 °C. Luego, a las 13:00 hrs la temperatura ascendió 8 °C respecto a la anteriormente mencionada. Si hasta las 16:00 hrs subió 2 °C, luego, desde las 16 hrs hasta las 23:00 bajó 4 °C y, finalmente, desde las 23:00 hrs hasta las 6 hrs del dia siguiente, bajó 5 °C más, ¿qué temperatura marcó el termometro en la última medición? 
+\end{itemize}
+
+\question Resuelve las siguientes adiciones y sustracciones de números enteros.
+
+\begin{itemize}
+  \item[a.] $(12+4)-(18)+(-4)$
+  \item[b.] $|-15+(-13)+6|$
+  \item[c.] $42+\left[16-(-3)+(-4)\right]$
+  \item[d.] $\left(-23+(-17)\right)-\left(28-(-10)\right)$
+  \item[e.] $\left|5-(-19)\right|+\left|-93+(-83)\right|$
+  \item[f.] $18+\left(28-\left(-78+29\right)-1\right)$
+  \item[g.] $\left(65-\left|41-42\right|+(-37)-(-11)\right)+(-23)$
+  \item[h.] $-\left(81+(-71)-(-52)+18\right)$
+  \item[i.] $\left(24+(-12)\right)-\left|26-(-25)\right|-\left(-32-(-17)\right)$
+  \item[j.] $-\left(16-\left(-19+(-15)\right)-\left(-1-(-21)-|-32|\right)\right)$       
+\end{itemize}
+
+\newpage
+  \vspace{0.1in}
+  \parbox{6in}{
+  \textbf{Tema:} Multiplicación de números enteros.}
+  \vspace{0.15in}
+  \hrule 
+  
+  \begin{itemize}
+    \item Al multiplicar números enteros de iguales signos, el resultado siempre será positivo.
+  
+    \item Al multiplicar números enteros de distinto signo, el resultado siempre será negativo.
+    \item Las siguientes propiedades se cumplen para todo número entero:
+    \begin{itemize}
+      \item Conmutatividad: $a\cdot b=b\cdot a$, donde $a$ y $b$ son números enteros.
+      \item Asociatividad: $a\cdot (b\cdot c)=(a\cdot b)\cdot c$, donde $a,b$ y $c$ son números enteros.
+      \item Clausura: $a\cdot b=k$, donde $a,b$ y $k$ son números enteros.
+      \item Distributividad: $a\cdot (b+c)=a\cdot b+a\cdot c$, donde $a,b$ y $c$ son números enteros.
+      \item Elemento neutro: $a\cdot 1=a$, donde $a$ es un número entero. 
+    \end{itemize}
+    
+  \end{itemize}
+  
+  \parbox{6in}{
+  \textbf{Actividades propuestas}}
+  \vspace{0.15in}
+  \hrule 
+
+  \question Resuelve las siguitentes multiplicaciones de números enteros.
+
+  \begin{multicols}{2}
+    
+ 
+  \begin{itemize}
+    \item[a.] $3\cdot (-4)$
+    \item[b.] $-5\cdot (-7)$
+    \item[c.] $18\cdot 2$
+    \item[d.] $-1\cdot (-19)$
+    \item[e.] $-12\cdot (-12)$
+    \item[f.] $-27\cdot 8$
+    \item[g.] $65\cdot (-4)$
+    \item[h.] $-73\cdot 6$
+    \item[i.] $0\cdot (-188)$
+    \item[j.] $81\dot 2$
+    \item[k.] $12\cdot (-5)\cdot 3$
+    \item[l.] $-1\cdot (-6)\cdot (-1)$
+    \item[m.] $-1\dot (-1)\cdot (-1)\cdot (-1)$
+    \item[n.] $-4\cdot (-6)\cdot 10$      
+  \end{itemize}
+ \end{multicols}
+
+  \question Escribe el factor que falta en las siguientes multiplicaciones de números enteros.
+
+  \begin{multicols}{2}
+    
+ 
+    \begin{itemize}
+      \item[a.] $12\cdot \rule{1cm}{0.4pt}=-36$
+      \item[b.] $\rule{1cm}{0.4pt}\cdot 4=28$
+      \item[c.] $\rule{1cm}{0.4pt}\cdot (-2)=-34$
+      \item[d.] $-9\cdot \rule{1cm}{0.4pt}=-9$
+      \item[e.] $-15\cdot \rule{1cm}{0.4pt}$=60
+      \item[f.] $\rule{1cm}{0.4pt}\cdot (-13)=-78$
+      \item[g.] $\rule{1cm}{0.4pt}\cdot 24=-72$
+      \item[h.] $19\cdot \rule{1cm}{0.4pt}=95$
+      \item[i.] $\rule{1cm}{0.4pt}\cdot 11=-77$
+      \item[j.] $-13\cdot \rule{1cm}{0.4pt}=169$
+      \item[k.] $\rule{1cm}{0.4pt}\cdot (-7)=245$
+      \item[l.] $-4\cdot \rule{1cm}{0.4pt}=-100$
+       
+    \end{itemize}
+   \end{multicols}
+
+\question Escribe cada propiedad de la multiplicación que se utilizó en los pasos correspondiente.
+
+\begin{center}
+\begin{tabular}{rl}
+  $-6\cdot (2+8)+[-4\cdot 1]\cdot (-3)$&$=-6\cdot (2+8)+(-4)\cdot [1\cdot (-3)]$\\
+  &$=-6\cdot (2+8)+(-4)\cdot (-3)$\\
+  &$=(-6\cdot 2)+(-6\cdot 8)+(-4)\cdot (-3)$\\
+  &$=-12+(-48)+(-4)\cdot (-3)$\\
+  &$=-12+(-48)+12$\\
+  &$=-12+12+(-48)$\\
+  &$=-48$\\
+\end{tabular}
+\end{center}
+
+\question Evalúa si las afirmaciones son verdaderas (V) o falsas (F).
+
+\begin{itemize}
+  \item[a.] \rule{1cm}{0.4pt} $a,b\in \mathbb{Z}\Rightarrow a\cdot b>0$ 
+  \item[b.] \rule{1cm}{0.4pt} $a,b,c\in \mathbb{Z}\Rightarrow a\cdot b\cdot c \in \mathbb{Z}$ 
+  \item[c.] \rule{1cm}{0.4pt} $-1$ es el elemento neutro para la multiplicación en $\mathbb{Z}$ 
+  \item[d.] \rule{1cm}{0.4pt} $a<0 \wedge b<0\Rightarrow a\cdot b>0$ 
+\end{itemize}
+
+\question Completa las tablas.
+
+\begin{itemize}
+  \item[a.]
+\begin{center}
+  \begin{tabular}{|c|c|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.5cm}|}\hline
+    $a$ & $b$ & $a\cdot b$ & $a\cdot (-b)$ & $-a\cdot (-b)$ \\ \hline
+    $3$ & $2$ &&& \\ \hline
+    $-1$ & $1$ &&& \\ \hline
+    $-6$ & $-4$ &&& \\ \hline
+    $-8$ & $-10$ &&& \\ \hline
+  \end{tabular}
+\end{center}
+\vspace{0.5cm}
+\item[b.]
+\begin{center}
+  \begin{tabular}{|c|c|c|>{\centering\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}p{3.5cm}|}\hline
+  $x$&$y$&$z$&$x\cdot (-y)\cdot z$&$x\cdot (y-z)$\\ \hline
+  $0$&$-3$&$-1$&&\\ \hline
+  $2$&$5$&$-4$&&\\ \hline
+  $-8$&$-6$&$1$&&\\ \hline
+  
+    
+  \end{tabular}
+\end{center}
+\end{itemize}
+
+\question Escribe la operación correspondiente de cada problema y luego resuelve.
+
+\begin{itemize}
+  \item[a.] Una mini empresa está pasando por una crisis económica. Cada día tiene una pérdida de \$70.000. ¿Cuánto dinero perdió durante la última semana?
+  \item[b.]Marcela ahorra cada día \$2.500. ¿Cuánto dinero lleva ahorrado en 20 días?
+  \item[c.]Daniel compró 5 discos en una tienda de música. si cada disco tenía un valor de \$7.990, ¿cuánto dinero gasto por los discos?
+  \item[d.]el día más frío del año, desde las 00:00 horas la temperatura descendió 3 °C por hora, hasta las 08:00 hrs. ¿Cuál fue la variación total de temperatura entre dicho lapso de tiempo? 
+  \item[e.] Debido a un virus respiratorio, en un colegio se contagian, en promedio, 4 estudiantes por día. Al cabo de 15 días, ¿cuántos estudiantes estarán contagiados?
+  \item[f.]Carla gasta semanalmente \$1.500 en frutas. ¿Cuánto dinero gastará en 4 meses? considera 4 semanas por mes.
+  \item[g.] Juan tiene un plan de telefonía móvil, con un cargo fijo de \$9.990 y un cobro extra de \$5 por minuto. ¿cuánto dinero debe pagar Juan en total, si se excdió en dos horas y media?
+  \item[h.] En la biblioteca municipal, por cada día de demora del prestamo de un libro, se cobra una multa de \$400. ¿Cuánto se debe pagar de multa, si un libro se entregó 8 días atrasado?
+  \item[i.] Un automóvil avanza a una rapidez constante de 70 km/h. ¿Cuál es la distancia recorrida luego de 3horas y media?
+  \item[j.]El cotavo básico quiere realizar una rifa en el colegio y tiene 180 boletos disponibles. Si cada boleto cuesta \$1.500, ¿cuánto dinero podrían ganar con todas las rifas vendidas? 
+  \item[k.] Un avión comercial vuela a 3.000 m de altura y por cada minuto, desciende 20 m. ¿Cuál es su altura lugo de media hora de vuelo?
 \end{itemize}
 
 \end{questions}
