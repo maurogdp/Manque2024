@@ -1,20 +1,19 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.28)  12 MAR 2024 02:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.12)  15 MAR 2024 09:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mauro/Desktop/colegio 2024/8vo basico/Guía - Números enteros.tex"
-(c:/Users/mauro/Desktop/colegio 2024/8vo basico/Guía - Números enteros.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-11>
-(C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/exam\exam.cls
+**"c:/Users/mauro/OneDrive/Escritorio/Manque2024/8vo basico/Guía - Números enteros.tex"
+(c:/Users/mauro/OneDrive/Escritorio/Manque2024/8vo basico/Guía - Números enteros.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-05-15> (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/exam\exam.cls
 Document Class: exam 2023/07/09 Version 2.704 by Philip Hirschhorn
 (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -69,14 +68,14 @@ File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \c@pageof@pagebonuspoints=\count285
 \c@latest@points=\count286
 \c@latest@bonuspoints=\count287
-\pageinfo@commands=\toks17
-\temp@toks=\toks18
-\pagepoint@commands=\toks19
-\point@toks=\toks20
+\pageinfo@commands=\toks16
+\temp@toks=\toks17
+\pagepoint@commands=\toks18
+\point@toks=\toks19
 \c@ques@object=\count288
 \marginpointssep=\skip62
 \rightpointsmargin=\skip63
-\choice@toks=\toks21
+\choice@toks=\toks20
 \answerlinelength=\skip64
 \answerskip=\skip65
 \answerclearance=\skip66
@@ -108,7 +107,7 @@ File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks21
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
@@ -125,15 +124,15 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen149
 \Gm@layouthoffset=\dimen150
 \Gm@layoutvoffset=\dimen151
-\Gm@dimlist=\toks23
+\Gm@dimlist=\toks22
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/07/15 v3.92 The Babel package
+Package: babel 2023/05/11 v3.89 The Babel package
 \babel@savecnt=\count304
 \U@D=\dimen152
 \l@unhyphenated=\language79
@@ -148,7 +147,7 @@ Package: babel 2023/07/15 v3.92 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks26
+\es@quottoks=\toks25
 \es@quotdepth=\count306
 )) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
@@ -189,7 +188,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks27
+\@emptytoks=\toks26
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -212,7 +211,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen154
 \ar@mcellbox=\box52
 \extrarowheight=\dimen155
-\NC@list=\toks28
+\NC@list=\toks27
 \extratabsurround=\skip77
 \backup@length=\skip78
 \ar@cellbox=\box53
@@ -235,7 +234,7 @@ Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip79
 
 For additional information on amsmath, use the `?' option.
@@ -243,7 +242,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks29
+\@emptytoks=\toks28
 \ex@=\dimen156
 )) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -281,28 +280,28 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count315
 \dspbrk@lvl=\count316
-\tag@help=\toks30
+\tag@help=\toks29
 \row@=\count317
 \column@=\count318
 \maxfields@=\count319
-\andhelp@=\toks31
+\andhelp@=\toks30
 \eqnshift@=\dimen159
 \alignsep@=\dimen160
 \tagshift@=\dimen161
 \tagwidth@=\dimen162
 \totwidth@=\dimen163
 \lineht@=\dimen164
-\@envbody=\toks32
+\@envbody=\toks31
 \multlinegap=\skip80
 \multlinetaggap=\skip81
-\mathdisplay@stack=\toks33
+\mathdisplay@stack=\toks32
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip82
 \enit@outerparindent=\dimen165
-\enit@toks=\toks34
+\enit@toks=\toks33
 \enit@inbox=\box56
 \enit@count@id=\count320
 \enitdp@description=\count321
@@ -326,7 +325,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
-Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+Package: ragged2e 2023/04/04 v3.5 ragged2e Package
 \CenteringLeftskip=\skip83
 \RaggedLeftLeftskip=\skip84
 \RaggedRightLeftskip=\skip85
@@ -346,7 +345,7 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen166
 \Gin@req@width=\dimen167
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count322
 \mult@box=\box57
 \multicol@leftmargin=\dimen168
@@ -363,12 +362,12 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \multicolbaselineskip=\skip98
 \partial@page=\box58
 \last@line=\box59
-\mc@boxedresult=\box60
 \maxbalancingoverflow=\dimen173
-\mult@rightbox=\box61
-\mult@grightbox=\box62
-\mult@firstbox=\box63
-\mult@gfirstbox=\box64
+\mult@rightbox=\box60
+\mult@grightbox=\box61
+\mult@firstbox=\box62
+\mult@gfirstbox=\box63
+\@tempa=\box64
 \@tempa=\box65
 \@tempa=\box66
 \@tempa=\box67
@@ -404,22 +403,21 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box97
 \@tempa=\box98
 \@tempa=\box99
-\@tempa=\box100
 \c@minrows=\count328
 \c@columnbadness=\count329
 \c@finalcolumnbadness=\count330
 \last@try=\dimen174
 \multicolovershoot=\dimen175
 \multicolundershoot=\dimen176
-\mult@nat@firstbox=\box101
-\colbreak@box=\box102
+\mult@nat@firstbox=\box100
+\colbreak@box=\box101
 \mc@col@check@num=\count331
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks35
+\pgfutil@everybye=\toks34
 \pgfutil@tempdima=\dimen177
 \pgfutil@tempdimb=\dimen178
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box103
+\pgfutil@abb=\box102
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -427,10 +425,10 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks38
+\pgfkeys@tmptoks=\toks37
 ))
 \pgf@x=\dimen179
 \pgf@y=\dimen180
@@ -448,9 +446,9 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \c@pgf@countb=\count333
 \c@pgf@countc=\count334
 \c@pgf@countd=\count335
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
 \pgf@sys@id@count=\count336
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -471,10 +469,10 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen189
 \pgfmath@count=\count339
-\pgfmath@box=\box104
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
+\pgfmath@box=\box103
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count340
 )) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -503,9 +501,9 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@start@additional=\dimen263
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box105
-\pgf@hbox=\box106
-\pgf@layerbox@main=\box107
+\pgfpic=\box104
+\pgf@hbox=\box105
+\pgf@layerbox@main=\box106
 \pgf@picture@serial@count=\count341
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -533,7 +531,7 @@ File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box108
+\pgfexternal@startupbox=\box107
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -544,7 +542,7 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box109
+\pgfnodeparttextbox=\box108
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
@@ -557,8 +555,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen272
 \pgffor@skip=\dimen273
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 )) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
@@ -574,10 +572,10 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen280
 \tikzleveldistance=\dimen281
 \tikzsiblingdistance=\dimen282
-\tikz@figbox=\box110
-\tikz@figbox@bg=\box111
-\tikz@tempbox=\box112
-\tikz@tempbox@bg=\box113
+\tikz@figbox=\box109
+\tikz@figbox@bg=\box110
+\tikz@tempbox=\box111
+\tikz@tempbox@bg=\box112
 \tikztreelevel=\count345
 \tikznumberofchildren=\count346
 \tikznumberofcurrentchild=\count347
@@ -609,11 +607,11 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfdecorationsegmentamplitude=\dimen292
 \pgfdecorationsegmentlength=\dimen293
 )
-\tikz@lib@dec@box=\box114
+\tikz@lib@dec@box=\box113
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box115
-\pgf@layerboxsaved@background=\box116
+\pgf@layerbox@background=\box114
+\pgf@layerboxsaved@background=\box115
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
@@ -642,26 +640,26 @@ File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box117
-\pgfnodeparttwobox=\box118
-\pgfnodepartthreebox=\box119
-\pgfnodepartfourbox=\box120
-\pgfnodeparttwentybox=\box121
-\pgfnodepartnineteenbox=\box122
-\pgfnodeparteighteenbox=\box123
-\pgfnodepartseventeenbox=\box124
-\pgfnodepartsixteenbox=\box125
-\pgfnodepartfifteenbox=\box126
-\pgfnodepartfourteenbox=\box127
-\pgfnodepartthirteenbox=\box128
-\pgfnodeparttwelvebox=\box129
-\pgfnodepartelevenbox=\box130
-\pgfnodeparttenbox=\box131
-\pgfnodepartninebox=\box132
-\pgfnodeparteightbox=\box133
-\pgfnodepartsevenbox=\box134
-\pgfnodepartsixbox=\box135
-\pgfnodepartfivebox=\box136
+\pgfnodepartlowerbox=\box116
+\pgfnodeparttwobox=\box117
+\pgfnodepartthreebox=\box118
+\pgfnodepartfourbox=\box119
+\pgfnodeparttwentybox=\box120
+\pgfnodepartnineteenbox=\box121
+\pgfnodeparteighteenbox=\box122
+\pgfnodepartseventeenbox=\box123
+\pgfnodepartsixteenbox=\box124
+\pgfnodepartfifteenbox=\box125
+\pgfnodepartfourteenbox=\box126
+\pgfnodepartthirteenbox=\box127
+\pgfnodeparttwelvebox=\box128
+\pgfnodepartelevenbox=\box129
+\pgfnodeparttenbox=\box130
+\pgfnodepartninebox=\box131
+\pgfnodeparteightbox=\box132
+\pgfnodepartsevenbox=\box133
+\pgfnodepartsixbox=\box134
+\pgfnodepartfivebox=\box135
 ))) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
@@ -704,12 +702,12 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \stack@tmplength=\skip103
 \temp@stkl=\skip104
 \@stackedboxwidth=\skip105
-\@addedbox=\box137
-\@anchorbox=\box138
-\@insetbox=\box139
-\se@backgroundbox=\box140
-\stackedbox=\box141
-\@centerbox=\box142
+\@addedbox=\box136
+\@anchorbox=\box137
+\@insetbox=\box138
+\se@backgroundbox=\box139
+\stackedbox=\box140
+\@centerbox=\box141
 \c@ROWcellindex@=\count364
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 67.
@@ -718,7 +716,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count365
-\l__pdf_internal_box=\box143
+\l__pdf_internal_box=\box142
 ) (Guía - Números enteros.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
@@ -780,15 +778,15 @@ LaTeX Info: Redefining \% on input line 67.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count366
 \scratchdimen=\dimen297
-\scratchbox=\box144
+\scratchbox=\box143
 \nofMPsegments=\count367
 \nofMParguments=\count368
-\everyMPshowfont=\toks47
+\everyMPshowfont=\toks46
 \MPscratchCnt=\count369
 \MPscratchDim=\dimen298
 \MPnumerator=\count370
 \makeMPintoPDFobject=\count371
-\everyMPtoPDFconversion=\toks48
+\everyMPtoPDFconversion=\toks47
 ) (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -830,31 +828,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 296.
  (C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [4{C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [5] [6]
-This exam contains 16 questions with 0 parts, 0 subparts, and 0 subsubparts.
+) [4{C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [5] [6] [7]
+This exam contains 17 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
 (Guía - Números enteros.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
-)
- ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-11>
- ***********
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 21119 strings out of 475503
- 439056 string characters out of 5761834
- 1940248 words of memory out of 5000000
- 41957 multiletter control sequences out of 15000+600000
- 577744 words of font info for 57 fonts, out of 8000000 for 9000
+ 21281 strings out of 476411
+ 445339 string characters out of 5789134
+ 1874845 words of memory out of 5000000
+ 41205 multiletter control sequences out of 15000+600000
+ 531962 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,10n,92p,512b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,10n,91p,522b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Guía - Números enteros.pdf" (6 pages, 121894 bytes).
+Output written on "Guía - Números enteros.pdf" (7 pages, 124071 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
