@@ -11,6 +11,10 @@
     \usepackage{hhline}
     \usepackage[none]{hyphenat}
 
+    \usepackage{mdframed} %agrega borde al minipage
+    \usepackage{tcolorbox}
+
+
 \usepackage{array}
 \usepackage[utf8]{inputenc}
 \usepackage{graphics}
@@ -485,7 +489,165 @@ Guía teórica\\
   \vspace{0.15in}
   \hrule 
 
-  \question Resuelve las siguitentes multiplicaciones de números enteros.
+  \question Resuelve las divisiones.
+  \begin{multicols}{3}
+    \begin{itemize}
+      \item[a.] $72\div \rule{1cm}{0.4pt}=-9$
+      \item[b.] $-56\div \rule{1cm}{0.4pt}=-8$
+      \item[c.] $\rule{1cm}{0.4pt}\div 5=-9$
+      \item[d.] $\rule{1cm}{0.4pt}\div 13=-4$
+      \item[e.] $46\div \rule{1cm}{0.4pt}=-2$
+      \item[f.] $129\div (-3)=\rule{1cm}{0.4pt}$
+      \item[g.] $-100\div \rule{1cm}{0.4pt}=10$
+      \item[h.] $\rule{1cm}{0.4pt}\div (-532)=0$
+      \item[i.] $\rule{1cm}{0.4pt}\div (-17)=-17$
 
+   
+    \end{itemize}
+    
+  \end{multicols}
+
+  \question Evalúa si las afirmaciones son verdaderas (V) o falsas (F).
+
+\begin{itemize}
+  \item[a.] \rule{1cm}{0.4pt} Si $a\div b=b\div a=k$, entonces, $k=1$. 
+  \item[b.] \rule{1cm}{0.4pt} $\forall a,b,c\in \mathbb{Z}$, con $b\neq 0$, si $a\div b=k$, entonces, $k\in \mathbb{Z}$.
+  \item[c.] \rule{1cm}{0.4pt} Si $a,b\in \mathbb{Z}$, con $a<0$ y $b>0$, entonces, $a\div b=k$, con $k>0$.
+  \item[d.] \rule{1cm}{0.4pt} Si $a,b\in \mathbb{Z}$, con $b\neq 0$, entonces, $a\div b=\dfrac{a}{b}$.
+  \item[e.] \rule{1cm}{0.4pt} $a,b\in \mathbb{Z} \wedge b=0 \Rightarrow a\div b=0$
+  \item[f.] \rule{1cm}{0.4pt} Si $a,b,c\in \mathbb{Z}-\{0\}\Rightarrow (a\div b)\div c=a\div (b\div c)$ 
+  \item[g.] \rule{1cm}{0.4pt} $a,b\in \mathbb{Z}/a>0 \wedge b\neq 0\Rightarrow -\dfrac{a}{b}>0$
+  \item[h.] \rule{1cm}{0.4pt} Si $a,b,c\in \mathbb{Z} \wedge b\neq 0\Rightarrow a\div b=c\Leftrightarrow b\cdot c=a$
+\end{itemize}
+
+\question Completa las tablas.
+
+\begin{itemize}
+  \item[a.]
+\begin{center}
+  \begin{tabular}{|c|c|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.5cm}|}\hline
+    $a$ & $b$ & $a\div b$ & $-a\div b$ \\ \hline
+    $-8$ & $4$ && \\ \hline
+    $27$ & $3$ && \\ \hline
+    $-168$ & $-6$ && \\ \hline
+    $625$ & $-25$ && \\ \hline
+  \end{tabular}
+\end{center}
+\vspace{0.5cm}
+\item[b.]
+\begin{center}
+  \begin{tabular}{|c|c|>{\centering\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}p{3.5cm}|}\hline
+  $x$&$y$&$x\div (-y)$&$-x\div (-y)$\\ \hline
+  $-105$&$-5$&&\\ \hline
+  $-105$&$36$&&\\ \hline
+  $-360$&$-15$&&\\ \hline
+  $243$&$-81$&&\\ \hline
+  
+    
+  \end{tabular}
+\end{center}
+\end{itemize}
+
+\question Relaciona las expresiones de cada columna. Para ello únelas con línea.
+
+
+\begin{minipage}{0.4\linewidth}
+  \begin{tcolorbox}[colback=white]
+  \begin{center}
+    \begin{tabular}{c}
+      La mitad de un número\\\\
+      $-x\div y=c$\\\\
+      $28\div (-14)$\\\\
+      $3\cdot (-12)=-36$\\\\
+      $-1\div (-b)=c$\\\\
+      $-(-10)\div -(-5)$\\\\
+      $m\div n$
+      
+    \end{tabular}
+  \end{center}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\linewidth}
+  \begin{tcolorbox}[colback=white]
+  \begin{center}
+    \begin{tabular}{c}
+      $c<0$\\\\
+      $2$\\\\
+      $c>0$\\\\
+      $\dfrac{m}{n}$\\\\
+      $a\div 2$\\\\
+      $-2$\\\\
+      $-36\div 3=-12$
+      
+    \end{tabular}
+  \end{center}
+\end{tcolorbox}
+\end{minipage}
+
+
+
+  \question Resuelve los siguientes problemas. Para ello, escribe la operación y luego resuelvela.
+  
+    \begin{itemize}
+      \item[a.] Se lanza una pelota, verticalmente hacia arriba, alcanzando una altura de 180 m. Si luego del primer bote, la altura alcanzada es la tercera parte de la altura inicial, ¿desde qué altura vuelve a caer la pelota luego del primer bote?
+      \item[b.] Un submarino alcanzó los 248 metros de profundidad. Si en la mitad de su trayecto se encontró con un arrecife de coral, ¿qué operación matemática se debe realizar para determinar la profundidad del arrecife de coral?
+      \item[c.] En la semana se registraron las siguientes temperaturas mínimas: $-2$ °C, $-1$ °C, $-4$ °C, $-3$ °C, $-1$ °C, $-2$ °C y $-1$ °C. ¿Cuál es la temperatura mínima promedio registrada en ese periodo?
+      \item[d.] En una división, el dividendo es $-648$, el cociente es $-27$, y el resto es $0$. ¿Cuál es el divisor?
+
+    \end{itemize}
+    
+    \newpage
+    \vspace{0.1in}
+    \parbox{6in}{
+    \textbf{Tema:} Operaciones combinadas con números enteros.}
+    \vspace{0.15in}
+    \hrule 
+    
+    \begin{itemize}
+      \item Para resolver operaciones combinadas se debe respetar el siguiente orden:
+      \begin{itemize}
+        \item[1°] Parentesis (de interior a exterior).
+        \item[2°] Multiplicación y/o división (de izquierda a derecha).
+        \item[3°] Adición y/o sustracción (de izquierda a derecha).
+      \end{itemize}
+    
+      \item Para eliminar paréntesis se debe aplicar la propiedad distributiva, es decir:
+      $+(a+b)=a+b$ o bien $-(a+b)=-a+(-b)$
+      
+    \end{itemize}
+    
+    \parbox{6in}{
+    \textbf{Actividades propuestas}}
+    \vspace{0.15in}
+    \hrule 
+  
+    \question Resuelve los ejercicios, respentando el orden de las operaciones.
+    \begin{multicols}{2}
+      \begin{itemize}
+        \item[a.] $5+15\div (-3)$
+        \item[b.] $4\cdot (-9)+(-12)\div (-3)$
+        \item[c.] $[16\div (-4)+5]-[30\div (-6)\cdot 7]$
+        \item[d.] $-[-13\cdot (-3)-30]\div (-3)+(-18)$ 
+        \item[e.] $2\cdot \left\{ 9\cdot (-4)\div (-2)+(-7)\right\}$
+        \item[f.] $[-1\cdot (-1)\div (-1)]-[1\div 1\cdot (-1)]$
+        \item[g.] $[5+15\div 3]\div [16-(-3)\cdot (-5)]$
+        \item[h.] $-[4\cdot (-5+4\cdot 3)]+[32\div (-8)]$
+        \item[i.] $-6\div 2-[12+(-3)\cdot 4\cdot (-5)]$
+        \item[j.] $(-9\cdot 4\div 2)\cdot 4-[-(11+(-5))\div 3]$
+        \item[k.] $-[24\div [12-3\cdot 5+(-9)]-14]$
+        \item[l.] $24\div 6-[16\cdot 6-10\cdot (8+5)]$   
+      \end{itemize}
+      
+    \end{multicols}
+  
+    \question Resuelve los problemas. Para ello, plantea y resuelve las operaciones combinadas correspondientes.
+
+    \begin{itemize}
+      \item[a.] María tiene \$15.000 ahorrados en su alcancía y cada semana le dan una mesada de \$1.500, de la que ahorra la mitad. ¿Cuánto dinero tendrá ahorrado al cabo de ocho semanas?
+      \item[b.] La entrada de un parque de diversiones cuesta \$2.500 y adicionalmente se paga \$500 para poder subir a cada juego. ¿Cuánto dinero se paga por una familia, compusta por los padres y 3 hijos, si los padres solo pagan la entrada; mientras que sus 3 hijos pagaron entrada y cada uno subió a 4 juegos?
+      \item[c.] Bastián tenía ahorrados \$40.000 y jugando fútbol con otros 3 amigos rompieron el ventanal de una casa. Si el costo por romper el ventanal fue de \$96.000, ¿cuánto dinero le quedará en sus ahorros, despues de compartir el pago de forma equitativa con sus amigos para reponer el ventanal roto?
+      \item[d.] Isidora trabaja en un restaurante, donde por cada día de trabajo le pagan \$15.000 y además, al final de cada semana se reparten las propinas con tres compañeros de trabajo. ¿Cuánto dinero recibe Isidora si esta semana trabajó 6 días y el monto final de las propinas a repartir entre ella y los compañeros de trabajo es de \$183.000?
+    \end{itemize}
 \end{questions}
 \end{document}
