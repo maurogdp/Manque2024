@@ -1,0 +1,432 @@
+\documentclass[spanish,letterpaper, 12pt, addpoints, answers]{exam}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2.5cm]{geometry}
+\PassOptionsToPackage{T1}{fontenc} 
+    \usepackage{fontenc} 
+    \usepackage[utf8]{inputenc}
+    % Cargar babel y configurar para español
+    \usepackage[spanish, es-tabla, es-noshorthands]{babel}
+    \usepackage{lmodern}
+    \usepackage{amsfonts}
+    \usepackage{multirow}
+    \usepackage{hhline}
+    \usepackage[none]{hyphenat}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{cancel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{tikz}
+\pointpoints{Punto}{Puntos}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{babel,arrows.meta,decorations.pathmorphing, backgrounds,positioning,fit,petri, shapes, shadows}
+
+\usepackage{tikz,color}
+\usepackage{pgf-pie} 
+
+
+
+\CorrectChoiceEmphasis{\color{red}}
+%\noprintanswers
+
+\renewcommand{\choiceshook}{%
+    \setlength{\leftmargin}{30pt}%
+}
+
+
+\everymath={\displaystyle}
+\renewcommand{\choicelabel}{\thechoice)}
+\renewcommand{\choicelabel}{ 
+  \ifnum\value{choice}>0
+    \makebox[1.5cm][r]{\raggedleft \thechoice)}
+  \else
+   \raggedleft \thechoice)
+  \fi
+}
+
+\setlength{\multicolsep}{0.6em}
+
+\setlength{\columnseprule}{2pt}
+
+\setlength{\columnsep}{2cm}
+%%%%%% ---Comment out to add a header image ----
+
+\author{Mauro Díaz Poblete}
+\begin{document}
+%\begin{figure}[t]
+%\includegraphics[width=1\textwidth,height=1.2\textheight,keepaspectratio]{header-cufm.png}
+%\end{figure}
+
+\begin{center}
+    \textbf{Evaluación Números enteros - Octavo básico}
+\end{center}
+\extraheadheight{-0.5in}
+
+\textbf{Nombre:}\rule{9cm}{0.5pt}\hspace{1cm}\textbf{Curso:}\rule{2cm}{0.5pt}
+\vspace{0.5cm}
+
+\textbf{Fecha:}\rule{4cm}{0.5pt}\hspace{1cm}\textbf{Puntaje obtenido:}\rule{2cm}{0.5pt}\textbf{Nota:}\rule{2cm}{0.5pt}
+
+\runningheadrule \extraheadheight{0.15in}
+
+\vspace{0.05in}
+\runningheadrule \extraheadheight{0.14in}
+
+\lhead{\ifcontinuation{Pregunta \ContinuedQuestion\ continua\ldots}{}}
+\runningheader{Matemáticas}{Evaluación Números enteros}{Octavo básico}
+\runningfooter{}
+{\thepage\ de \numpages}
+{}
+\vspace{0.05in}
+
+\nopointsinmargin
+\setlength\linefillthickness{0.1pt}
+\setlength\answerlinelength{0.1in}
+\vspace{0.05in}
+%\parbox{6in}{
+%\textbf{Objetivo:} Verificar el aprendizaje y comprensión de algunos de los temas fundamentales del nivel. }
+\vspace{0.1in}
+
+\begin{center}
+    \fbox{\fbox{\parbox{16cm}{
+                {\textbf{Objetivo General: }OA1\\
+
+                        \textbf{Objetivos específicos:}
+                        \begin{itemize}
+                            \item Comparar números enteros.
+                            \item Resolver sumas, restas, multiplicaciones y divisiones de números enteros.
+                            \item Resolver operatoria combinada de números enteros que involucren el uso del valor absoluto.
+                            \item Utilizar la operatoria de números enteros para resolver problemas contextualizados.
+                        \end{itemize}
+                    }}}}
+    \vspace{0.2in}
+\end{center}
+
+
+
+
+\begin{center}
+    \fbox{\fbox{\parbox{16cm}{
+                {\textbf{Instrucciones:}
+                        \begin{itemize}
+                            \item Tienes 80 minutos para contestar esta evaluación.
+                            \item La evaluación tiene un total de 30 puntos
+                            \item Recuerda que no puedes utilizar dispositivos electrónicos durante la evaluación.
+                            \item Lee cada pregunta cuidadosamente. Pon atención a los detalles.
+
+                            \item Esta prueba consta de 30 ppreguntas de seleccioón única. Tal cual lo indica el nombre, solo existe una alternativa correcta a la pregunta o situación planteada. En caso de seleccioar 2 o más, o bien, no seleccionar ninguna, se considerará incorrecto.
+
+                        \end{itemize} }}}}
+    \vspace{0.2in}
+\end{center}
+
+\newpage
+\parbox{5in}{
+    {\textsc{\textbf{Preguntas de selección única.} \color{gray}{Habilidad: Conocer, Resolver y Aplicar}}}}
+
+\vspace{0.15in}
+\hrule
+%\vspace{0.35in}
+
+\begin{questions}
+
+    %\begin{multicols}{2}
+
+    \question[1] ¿Cuál es el resultado de $-10+5+(-8)$?
+
+    \begin{choices}
+        \choice $-23$
+        \CorrectChoice $-13$
+        \choice $18$
+        \choice $3$
+    \end{choices}
+
+    \vspace{0.15in}
+
+    \question[1] Si $m<0$, ¿cuál de las siguientes expresiones representa un entero negativo?
+
+    \begin{choices}
+        \choice $m\cdot m$
+        \choice $-m$
+        \CorrectChoice $3m$
+        \choice $m\div (-2)$
+    \end{choices}
+
+    \vspace{0.15in}
+
+
+    \question[1] El resultado de la expresión $-5-(-11)$ es:
+    \begin{choices}
+        \choice $-16$
+        \choice $-6$
+        \CorrectChoice $6$
+        \choice $16$
+    \end{choices}
+
+    \vspace{0.15in}
+
+    \setlength{\multicolsep}{0.5em}
+    \question[1] ¿Cuál de las siguientes afirmaciones es \textbf{FALSA}?
+
+    \begin{choices}
+        \choice El número 0 es el elemento neutro en la suma de números enteros.
+        \CorrectChoice El valor absoluto de un número entero siempre es positivo.
+        \choice El valor absoluto de un número entero negativo siempre es positivo.
+        \choice El inverso aditivo de un número entero es siempre negativo.
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] Si $a=3$ y $b=-4$, entonces, el valor de $3a-2b$ es:
+    \begin{choices}
+        \CorrectChoice $17$
+        \choice $5$
+        \choice $-4$
+        \choice $-5$
+    \end{choices}
+    \vspace{0.15in}
+
+    \newpage
+    \question[1] En la recta numérica, ¿cuál de los siguientes números está a la izquierda de $-17$?
+    \begin{choices}
+        \CorrectChoice $-18$
+        \choice $-16$
+        \choice $-0$
+        \choice $17$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál de las siguientes frases \textbf{NO} se relaciona con el número $-21$?
+    \begin{choices}
+        \choice Un buzo está a 21 m de profundidad.
+        \CorrectChoice La distancia de dos edificios es 21 m.
+        \choice La temperatura es 21 °C bajo cero.
+        \choice El personaje nació 21 años a.C.
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Qué grupo de números está correctamente ordenado?
+    \begin{choices}
+        \choice $-15<-12<7<3$
+        \choice $7>3>-15>-12$
+        \choice $3<7<-12<-15$
+        \CorrectChoice $7>3>-12>-15$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] Arquímides nació en el año 287 a. C y murió en el año 212 a. C. ¿A que edad murió Arquímides?
+    \begin{choices}
+        \choice A los 55 años.
+        \choice A los 65 años.
+        \CorrectChoice A los 75 años.
+        \choice A los 85 años.
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] Un submarino se encuentra a 530 m bajo el nivel del mar; mientras que, una gaviota vuela a 30 m sobre el nivel del mar. ¿Cuánto suman las distncias del submarino y la gaviota respecto del nivel del mar?
+    \begin{choices}
+        \CorrectChoice 560 m
+        \choice 530 m
+        \choice 500 m
+        \choice 30 m
+    \end{choices}
+    \vspace{0.15in}
+
+    \newpage
+    \question[1] En la expresión $12\div (-a)=4$, el valor de $a$ es:
+    \begin{choices}
+        \choice $-8$
+        \CorrectChoice $-3$
+        \choice $3$
+        \choice $8$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] Si a un número entero positivo se le resta un número entero negativo, el resultado siempre es:
+    \begin{choices}
+        \choice 0
+        \choice 1
+        \CorrectChoice Positivo
+        \choice Negativo
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] Al resolver $-18+36\div 2$, se obtiene:
+
+    \begin{choices}
+        \choice $9$
+        \CorrectChoice $0$
+        \choice $-9$
+        \choice $-36$
+    \end{choices}
+
+    \question[1] La temperatura mínima de un día fue $-5$ °C y la máxima fue de $7$ °C. ¿Cuál fue la variación de la temperatura en el día?
+    \begin{choices}
+        \CorrectChoice 12 °C
+        \choice 2 °C
+        \choice $-2$ °C
+        \choice $-35$ °C
+    \end{choices}
+
+    \question[1] ¿Cuál de las siguientes desigualdades es \textbf{VERDADERA}?
+    \begin{choices}
+        \choice $-6>-5$
+        \choice $0>-(-1)$
+        \choice $3<-9$
+        \CorrectChoice $12>11$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál de las siguientes frases es \textbf{INCORRECTA}?
+    \begin{choices}
+        \CorrectChoice Al sumar un número negativo con un número positivo, el resultado siempre es negativo.
+        \choice $-1$ y $1$ son inversis aditivos.
+        \choice Si se suman dos números negativos, el resultado siempre es negativo.
+        \choice El valor absoluto de $-4$ es $4$.
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál es el cociente de $-108\div 9$?
+    \begin{choices}
+        \choice $13$
+        \choice $12$
+        \CorrectChoice $-12$
+        \choice $-13$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál es el resultado de $|15-(-4)|$?
+    \begin{choices}
+        \choice $-11$
+        \choice $-19$
+        \choice $11$
+        \CorrectChoice $19$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] En la expresión $-4\div n=1$, cuál es el valor de $n$?
+    \begin{choices}
+        \CorrectChoice $-4$
+        \choice $-1$
+        \choice $0$
+        \choice $4$
+    \end{choices}
+    \vspace{0.15in}
+    \vspace{1cm}
+    \parbox{5in}{\textbf{Considera que $X=-1$, $Y=-3$ y $Z=2$, para responder las preguntas 20 a la 23.}}
+    \vspace{0.5cm}
+
+    \question[1] ¿Cuál es el valor de $X-Y$?
+    \begin{choices}
+        \choice $4$
+        \CorrectChoice $2$
+        \choice $-2$
+        \choice $-4$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál es el valor de $X+Y+Z$?
+    \begin{choices}
+        \choice $6$
+        \choice $2$
+        \CorrectChoice $-2$
+        \choice $-6$
+    \end{choices}
+    \vspace{0.15in}
+
+    \newpage
+    \question[1] ¿Cuál es el valor de $2\cdot X-3\cdot Z$?
+    \begin{choices}
+        \CorrectChoice $-8$
+        \choice $-4$
+        \choice $4$
+        \choice $8$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál es el valor de $Y-(X-4\cdot Z)$?
+    \begin{choices}
+        \choice $-12$
+        \choice $-6$
+        \CorrectChoice $6$
+        \choice $12$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál de las expresiones tienen el mismo resultado que $-3+(-3)+(-3)+(-3)+(-3)$?
+    \begin{choices}
+        \choice $-3+5$
+        \choice $-3\div 5$
+        \CorrectChoice $-3\cdot 5$
+        \choice $-3\cdot (-5)$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] En $-2\cdot (5+(-6))=-2\cdot 5+(-2)\cdot (-6)$ fue aplicada la propiedad:
+    \begin{choices}
+        \choice Conmutativa
+        \choice Asociativa
+        \CorrectChoice Distributiva
+        \choice Clausura
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] ¿Cuál es el resultado de $-1\cdot 1\div (-1)\cdot 1\cdot (-1)$
+    \begin{choices}
+        \choice $-2$
+        \CorrectChoice $-1$
+        \choice $0$
+        \choice $1$
+    \end{choices}
+    \vspace{0.15in}
+
+    \newpage
+    \question[1] ¿Cuál es el resultado de $3\cdot (18-(-7))\div \left[5\cdot (-12+9)\right]$?
+    \begin{choices}
+        \choice $7$
+        \choice $5$
+        \CorrectChoice $-5$
+        \choice $-7$
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] Si $m<0$ y $n>0$, ¿de qué signo es el resultado de $m\cdot (-n)$?
+    \begin{choices}
+        \CorrectChoice Positivo
+        \choice Negativo
+        \choice No tiene signo porque resulta 0.
+        \choice El signo cambiará de acuerdo al valor de $m$ y de $n$.
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] La linea de crédito de Luis tiene un saldo de $-\$180.000$. Si el banco le ofrece hacerle un prestamo de 4 veces respecto al monto que adeuda, ¿cuánto dinero le quedará en la cuenta luego de pagar su linea de crédito?
+    \begin{choices}
+        \choice $-\$720.000$
+        \choice \$720.000
+        \CorrectChoice \$540.000
+        \choice \$900.000
+    \end{choices}
+    \vspace{0.15in}
+
+    \question[1] Un comerciante compró al por mayor, 960 lentes de Sol para vender. Si el fabricante de los lentes le regaló uno más por cada docena comprada, ¿cuántos lentes en total recibió el comerciante?
+    \begin{choices}
+        \choice $961$
+        \choice $972$
+        \choice $980$
+        \CorrectChoice $1.040$
+    \end{choices}
+    \vspace{0.15in}
+
+    %\end{multicols}
+
+
+
+\end{questions}
+\end{document}

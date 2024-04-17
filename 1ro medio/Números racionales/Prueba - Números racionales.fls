@@ -1,7 +1,7 @@
-PWD c:\Users\mauro\Desktop\colegio 2024\1ro medio\Operatoria combinada de racionales
+PWD c:\Users\mauro\Desktop\colegio 2024\1ro medio\Números racionales
 INPUT C:\Users\mauro\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\mauro\Desktop\colegio 2024\1ro medio\Operatoria combinada de racionales\Prueba - Números.tex
-OUTPUT Prueba - Números.log
+INPUT c:\Users\mauro\Desktop\colegio 2024\1ro medio\Números racionales\Prueba - Números racionales.tex
+OUTPUT Prueba - Números racionales.log
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\exam\exam.cls
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\exam\exam.cls
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
@@ -243,7 +243,7 @@ INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
-OUTPUT Prueba - Números.pdf
+OUTPUT Prueba - Números racionales.pdf
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\pgf-pie\pgf-pie.sty
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\pgf-pie\pgf-pie.sty
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\pgf-pie\tikzlibrarypie.code.tex
@@ -256,10 +256,10 @@ INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Prueba - Números.aux
-INPUT .\Prueba - Números.aux
-INPUT Prueba - Números.aux
-OUTPUT Prueba - Números.aux
+INPUT .\Prueba - Números racionales.aux
+INPUT .\Prueba - Números racionales.aux
+INPUT Prueba - Números racionales.aux
+OUTPUT Prueba - Números racionales.aux
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -315,7 +315,7 @@ INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
-INPUT Prueba - Números.aux
+INPUT Prueba - Números racionales.aux
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\mauro\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
